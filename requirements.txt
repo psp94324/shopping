@@ -1,0 +1,5 @@
+# 테스트한 버전 범위로 고정 (CSS가 Streamlit 내부 구조에 의존함)
+streamlit>=1.58,<2
+SQLAlchemy>=2.0,<3
+# 배포 시 Postgres(Supabase 등) 연결용. 로컬 SQLite만 쓸 때는 사용되지 않음
+psycopg2-binary>=2.9,<3
