@@ -1,0 +1,10 @@
+# [theme]에 색을 직접 지정하면 라이트 모드로 고정되므로,
+# 라이트/다크 테마를 각각 지정해 시스템 설정(다크 모드)을 따르게 한다.
+[theme.light]
+primaryColor = "#2E9E6B"
+
+[theme.dark]
+primaryColor = "#3DBE84"
+
+[client]
+toolbarMode = "minimal"
