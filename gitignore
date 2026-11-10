@@ -1,0 +1,13 @@
+# 데이터 (로컬 DB, 예전 JSON 및 이전/손상 백업)
+shopping.db
+shopping_list*.json
+
+# 비밀 정보
+.streamlit/secrets.toml
+
+# 테스트 산출물
+screenshots/
+.playwright-mcp/
+
+__pycache__/
+.venv/
